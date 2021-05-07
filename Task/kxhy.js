@@ -12,7 +12,7 @@ let no,No,no0,no1,no2,no3,no4,no5,no6,no7,no8;
 var roomcount,id;
 let status;
 status = (status = ($.getval("kxhystatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
-var kxhyheaderArr = ['{"bs":"CDMA","osVersion":"iOS%2013.50","Host":"bp-api.coohua.com","pkgId":"229","Accept-Encoding":"gzip, deflate, br","deviceId":"0","wechatId":"default","Origin":"file://","brand":"Apple","channel":"AppStore","appVersion":"1.0.3","accessKey":"b91d0b9fa6552cd16f1227ff31fa9797_213847263","Connection":"keep-alive","romVersion":"iOS%2013.50","Accept-Language":"zh-cn","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148","os":"iOS","Content-Type":"application/json","oaid":"","Accept":"*/*","Content-Length":"37","gps":"default"}']
+var kxhyheaderArr = ['{"bs":"CDMA","osVersion":"iOS%2014.50","pkgId":"229","Host":"bp-api.coohua.com","Accept-Encoding":"gzip, deflate, br","deviceId":"0","gps":"default","Origin":"file://","brand":"Apple","channel":"AppStore","Connection":"keep-alive","accessKey":"9df8ae8db3d486244fb17424bdad15f3_227914563","appVersion":"1.0.3","romVersion":"iOS%2014.50","Accept-Language":"zh-cn","os":"iOS","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 14_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148","Content-Type":"application/json","Accept":"*/*","oaid":"","Content-Length":"37","wechatId":"default"}']
 var adheaderArr = []
 var adbodyArr = []
 let kxhyheader = $.getdata('kxhyheader')
