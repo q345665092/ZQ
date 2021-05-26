@@ -1,10 +1,10 @@
-name: kxhy
+name: 西梅
 
 
 on:
   workflow_dispatch:
   schedule:
-     - cron: '*/25 * * * *'
+     - cron: '0 */1 * * *'
   watch:
     types: started
 jobs:
@@ -22,9 +22,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【kxhy】'
+      - name: '运行 【西梅】'
         run: |
-          node Task/kxhy.js
+          node Task/ximei.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
