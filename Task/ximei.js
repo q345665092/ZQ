@@ -57,7 +57,7 @@ hostname = app.hubonews.com
 const $ = new Env('西梅');
 let status;
 status = (status = ($.getval("ximeistatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
-const ximeiurlArr = ['https://app.hubonews.com/v4/articles/list'], ximeihdArr = ['{"Accept-Encoding":"gzip, deflate, br","Host":"app.hubonews.com","X_CLIENT_CHANNEL":"App Store","X_CLIENT_APP":"com.tigerye.tigerobo","X_CLIENT_PLATFORM":"iOS","Connection":"keep-alive","DEVICE_ID":"617A07F7-45E7-4844-B904-D054559740D7","BRAND_PRODUCT":"Apple-iPhone11,2","X_CLIENT_TRANSLATION_LANGUAGE":"en","Accept-Language":"zh-Hans-CN;q=1","User-Agent":"tigerobo/2.8.3 (iPhone; iOS 13.5; Scale/3.00)","Content-Type":"application/json","X_CLIENT_IDFA":"00000000-0000-0000-0000-000000000000","X_CLIENT_COUNTRY":"CN","X_CLIENT_VERSION":"2.8.3","Accept":"*/*","X_CLIENT_BUILD":"246","API_AUTHORIZATION":"PyGjOrNNqmCkXXjQfgMe","X_CLIENT_LANGUAGE":"zh","Content-Length":"21"}'],ximeicount = ''
+const ximeiurlArr = ['https://app.hubonews.com/v4/articles/list'], ximeihdArr = ['{"Accept-Encoding":"gzip, deflate, br","Host":"app.hubonews.com","X_CLIENT_CHANNEL":"App Store","X_CLIENT_APP":"com.tigerye.tigerobo","X_CLIENT_PLATFORM":"iOS","Connection":"keep-alive","DEVICE_ID":"CD5AB01B-2176-4AF3-9A9D-50199B5EF76F","BRAND_PRODUCT":"Apple-iPhone12,1","X_CLIENT_TRANSLATION_LANGUAGE":"en","Accept-Language":"zh-Hans-CN;q=1","User-Agent":"tigerobo/2.8.3 (iPhone; iOS 14.5.1; Scale/2.00)","Content-Type":"application/json","X_CLIENT_IDFA":"","X_CLIENT_COUNTRY":"CN","X_CLIENT_VERSION":"2.8.3","Accept":"*/*","API_AUTHORIZATION":"VwIKZIdIQpwgodLedeTs","X_CLIENT_BUILD":"246","X_CLIENT_LANGUAGE":"zh","Content-Length":"21"}'],ximeicount = ''
 let times = Math.round(Date.now())
 let ximeiurl = $.getdata('ximeiurl')
 let ximeihd = $.getdata('ximeihd')
